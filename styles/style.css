@@ -2,6 +2,7 @@
 
 :root {
     --white: hsl(0, 0%, 100%);
+    --blue: hsl(216, 100%, 61%);
     --lightblue: hsl(212, 45%, 89%);
     --medblue: hsl(216, 15%, 48%);
     --darkblue: hsl(218, 44%, 22%)
@@ -20,7 +21,7 @@ main {
     width: 20rem;
     height: 31.188rem;
     border-radius: 4%;
-    margin-top: 20vh;
+    margin-block-start: 23vh;
     text-align: center;
 }
 
@@ -28,7 +29,7 @@ img.qrcode{
     height: 18rem;
     width: 18rem;
     border-radius: 5%;
-    margin-top: 1rem;
+    margin-block-start: min(50% , 1rem);
 }
 
 h1.adv {
@@ -36,7 +37,7 @@ h1.adv {
     font-size: 1.375rem;
     color: var(--darkblue);
     width: 16rem;
-    margin: 1.5rem auto 0 auto;
+    margin: 1.5rem auto;
 }
 
 p.instruc {
@@ -44,7 +45,7 @@ p.instruc {
     font-size: 0.938rem;
     color: var(--medblue);
     width: 16rem;
-    margin: 1.5rem auto 0 auto;
+    margin: 1.5rem auto;
 }
 
 footer{
@@ -55,5 +56,5 @@ footer div.attribution p {
     font-weight: 400;
     font-size: 0.938rem;
     color: var(--medblue);
-    margin: 1.5rem auto auto auto;
+    margin: 1.5rem auto;
 }
